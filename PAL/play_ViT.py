@@ -40,19 +40,19 @@ while True:
         with pyautogui.hold(key):  # Press the Up key down and hold it.
             time.sleep(2/speed)
         with pyautogui.hold('left'):
-            im = pyautogui.screenshot(region=region)
             img_emb = model.encode(im)
+            im = pyautogui.screenshot(region=region)
     elif (case == 2 or case == 3):
         with pyautogui.hold(key):
-            im = pyautogui.screenshot(region=region)
             img_emb = model.encode(im)
+            im = pyautogui.screenshot(region=region)
     elif (case == 0):
         key = 'down'
         with pyautogui.hold(key):
-            im = pyautogui.screenshot(region=region)
             img_emb = model.encode(im)
+            im = pyautogui.screenshot(region=region)
     else:
         with pyautogui.hold('space'):
-            im = pyautogui.screenshot(region=region)
             img_emb = model.encode(im)
+            im = pyautogui.screenshot(region=region)
     pre = cos_scores
