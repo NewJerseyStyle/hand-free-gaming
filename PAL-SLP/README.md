@@ -4,7 +4,7 @@
 
 開啟遊戲後抵達長坡可以使用本方案開始驅蟲
 
-# DQN 除草機
+# DQN 驅蟲劑
 用 CMD/Shell 運行：
 ```bash
 # 首先安裝依賴
@@ -23,7 +23,7 @@ python play_ViT.py
 
 > ⌨️ :octocat: 🖱️ 還是嫌棄這個實現太慢？沒問題，魔改一下換成 CNN 的 DQN 就會快些了，默認用的 ViT 特徵提取是比較殺雞用牛刀了
 
-## dHash 迷之走位
+## dHash 滅蟲機器人
 用 CMD/Shell 運行：
 ```bash
 # 首先安裝依賴
