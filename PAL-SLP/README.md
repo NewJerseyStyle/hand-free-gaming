@@ -21,6 +21,8 @@ python play_ViT.py
 
 > 🤬🤡🐱對世界充滿好奇的 AI 有一定機率會離開十里坡 ~~閒逛摸魚~~ 去探索地圖的每一個角落；為了避免它亂用道具或者沉迷於跟路人聊天，已經禁止它按 [space](https://zh.wikipedia.org/zh-hk/%E7%A9%BA%E6%A0%BC%E9%94%AE) 和 [enter](https://zh.wikipedia.org/wiki/%E5%9B%9E%E8%BB%8A%E9%8D%B5) 鍵
 
+> ⌨️ :octocat: 🖱️ 還是嫌棄這個實現太慢？沒問題，魔改一下換成 CNN 的 DQN 就會快些了，默認用的 ViT 特徵提取是比較殺雞用牛刀了
+
 ## dHash 迷之走位
 用 CMD/Shell 運行：
 ```bash
